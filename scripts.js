@@ -1,7 +1,7 @@
 var seconds = 5
 var timeoutId;
 var isPaused = false;
-var isStarted = false;
+var isStarted = false; 
 var originalMinutes = 0;
 var minutes = 0;
 var alertShown = false; // New flag to track if the alert has been shown
