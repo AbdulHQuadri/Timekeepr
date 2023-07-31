@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="timer">
+        <h2><span id="time">0:00</span></h2>
+    </div>
+    <div class="input">
+        <form id="timer-duration">
+            <input type="number" placeholder="How long should the timer last" id="length">
+            <!-- Remove the submit button and use a regular button instead -->
+            <button type="button" onclick="countdown()">START</button>
+        </form>
+    </div>
+    <div class="controls">
+        <button id="pause-button">PAUSE</button>
+    </div>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
